@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: backend
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-user-workloads/ulilleen-tenant/trusted-content/backend@sha256:037ef7f3d163e69e5624437c3133241dd5dc305aa8cc8b7fe9117b9be4f2568b
         imagePullPolicy: Always
         name: container-image
         ports:
