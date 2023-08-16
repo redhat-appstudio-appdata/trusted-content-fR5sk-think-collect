@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: backend
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/ulilleen-tenant/trusted-content/backend@sha256:037ef7f3d163e69e5624437c3133241dd5dc305aa8cc8b7fe9117b9be4f2568b
+        name: container-image
+        resources: {}
+status: {}
